@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>K S Yesaswi | Portfolio</title>
+  <style>
+    body {
+      background-color: #363636;
+      color: #adf6e6;
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;background: #2A7B9B;
+background: linear-gradient(
+  90deg,
+  red -5%,
+  cyan 20%,
+  black 50%,
+  cyan 80%,
+  red 105%
+); 
+    }
+
+    header img {
+      max-width: 150px;
+      border-radius: 50%;
+      border: 3px solid lightblue;
+      margin-bottom: 1rem;
+    }
+
+    section {
+      padding: 2rem;
+      margin: 1rem auto;
+      max-width: 800px;
+      background-color: #111;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(173, 216, 230, 0.3);
+    }
+
+    h1, h2 {
+      color: #adf6e6;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    a {
+      color: #adf6e6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact a {
+      color: #ffffff;
+      background-color: #828282;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+    }
+
+    .contact a:hover {
+      background-color: #828282;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images(1).jpg" alt="K S Yesaswi">
+    <h1>K S Yesaswi</h1>
+    <p>14 year old musician and enthusiastic about science</p>
+  </header>
+
+  <!-- About Me -->
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p>
+      I’m a 14-year-old student who likes to sing and play online games. I am also enthusiastic about science, especially space.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Singing</li>
+      <li>Drawing</li>
+      <li>Games</li>
+      <li><a href="https://www.youtube.com/watch?v=TKG6374rEXE" target="_blank">Watch My Skills</a></li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <strong>Science</strong><br>
+        School of DAV, 2025–2026
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p  background-color="Blue";>Email: <a href="mailto:madhurisha07@gmail.com">madhurisha07@gmail.com</a></p>
+  </section>
+
+</body>
+</html>
